@@ -1,0 +1,69 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"next/link\"": 1,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!shared/Layout.js 0c1eea4a882a4cf462b9ffb184b659a5": 2,
+      "external \"styled-jsx/style\"": 3,
+      "external \"next/router\"": 4,
+      "external \"react-markdown\"": 5,
+      "multi ./pages/about.js": 6,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/about.js": 7,
+      "multi ./pages/index.js": 8,
+      "multi ./pages/post.js": 9,
+      "multi node_modules/next/dist/pages/_app.js": 10,
+      "node_modules/next/dist/pages/_app.js": 11,
+      "external \"next/app\"": 12,
+      "multi node_modules/next/dist/pages/_error.js": 13,
+      "node_modules/next/dist/pages/_error.js": 14,
+      "external \"next/error\"": 15,
+      "multi node_modules/next/dist/pages/_document.js": 16,
+      "node_modules/next/dist/pages/_document.js": 17,
+      "external \"next/document\"": 18,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 1c5ec65dff19ae74f10ade262b4b59ce": 19,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/post.js 29283dd59368ac5f737d7086323b1a51": 20
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/about.js": 0,
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/index.js": 1,
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/post.js": 2,
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/_app.js": 3,
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/_error.js": 4,
+      "static/7C1xHaCGsZ6dF9UZJyUn4/pages/_document.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}
