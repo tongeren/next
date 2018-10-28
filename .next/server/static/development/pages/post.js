@@ -111,6 +111,9 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/tongeren/next/hello-next/pages/post.js";
 
 
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(function (props) {
@@ -120,13 +123,13 @@ var _jsxFileName = "/Users/tongeren/next/hello-next/pages/post.js";
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_Content__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_Content__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, props, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }));
+  })));
 }));
 
 /***/ }),

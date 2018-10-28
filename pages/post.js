@@ -4,7 +4,7 @@ import Content from '../shared/Content';
 
 export default withRouter((props) => (
     <Layout>
-       <Content />
+       <Content {...props}/>
     </Layout>
 ));
 
