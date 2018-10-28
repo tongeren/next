@@ -1,10 +1,10 @@
 import { withRouter } from 'next/router';
-import Layout from '../shared/Layout.js';
+import Layout from '../shared/Layout';
+import Content from '../shared/Content';
 
 export default withRouter((props) => (
     <Layout>
-       <h1>{props.router.query.title}</h1>
-       <p>This is the blog post content.</p>
+       <Content />
     </Layout>
 ));
 
