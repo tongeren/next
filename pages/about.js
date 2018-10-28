@@ -1,6 +1,5 @@
 export default () => (
     <div>
-        <p>Hello Next.js</p>
+      <p>This is the about page</p>
     </div>
 );
-
