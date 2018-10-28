@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../shared/Layout';
 
 export default () => (
   <Layout>
