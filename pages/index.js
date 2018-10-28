@@ -2,22 +2,24 @@ import Layout from '../shared/Layout';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
-const index = (props) => (
-  <Layout>
-    <h1>Batman TV Shows</h1>
-    <ul>
-      {props.shows.map(({show}) => (
-        <li key={show.id}>
-          <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-            <a>{show.name}</a>
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </Layout>
-);
+const index = (props) => {
+  return(
+    <Layout>
+      <h1>Batman TV Shows</h1>
+      <ul>
+        {props.shows.map(({show}) => (
+          <li key={show.id}>
+            <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
+              <a>{show.name}</a>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </Layout>
+  );
+}  
 
-index.getInitialProps = async function() {
+index.getInitialProps = async () => {
   const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
   const data = await res.json();
 
@@ -27,5 +29,6 @@ index.getInitialProps = async function() {
     shows: data
   }
 }
+
 
 export default index;
