@@ -130,6 +130,7 @@ var _jsxFileName = "/Users/tongeren/next/hello-next/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_PostLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    id: "hello-nextjs",
     title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
@@ -137,6 +138,7 @@ var _jsxFileName = "/Users/tongeren/next/hello-next/pages/index.js";
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_PostLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    id: "learn-nextjs",
     title: "Learn Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
@@ -144,6 +146,7 @@ var _jsxFileName = "/Users/tongeren/next/hello-next/pages/index.js";
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_PostLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    id: "deploy-nextjs",
     title: "Deploy apps with Zeit",
     __source: {
       fileName: _jsxFileName,
@@ -284,6 +287,7 @@ var postLink = function postLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    as: "/p/".concat(props.id),
     href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
