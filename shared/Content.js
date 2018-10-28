@@ -1,3 +1,5 @@
+import { withRouter } from 'next/router';
+
 const content = (props) => (
     <div>
       <h1>{props.router.query.title}</h1>
@@ -5,5 +7,5 @@ const content = (props) => (
     </div>
 );
 
-export default content;
+export default withRouter(content);
   
